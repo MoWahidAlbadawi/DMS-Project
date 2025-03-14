@@ -1,0 +1,13 @@
+.parent-image-home {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+}
+.image-home { 
+    width: 300px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}

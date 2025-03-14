@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+body {
+  background-color : #f8f4f4;
+  direction: rtl;
+  color: black;
+  appearance: none;
+  -webkit-appearance: none; 
+    -moz-appearance: none; 
+}
+.form-appointment {
+    max-width: 500px;
+    margin: 50px auto ;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+input {
+  padding: 1rem;
+  color: #333;
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc; 
+}
+input:hover ,
+input:focus ,
+select:hover,
+select:focus {
+  outline: none; 
+  border-color: rgb(154, 228, 228); 
+  box-shadow: 0 0 4px teal; 
+}
+label {
+  color: #050505;
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+  select {
+  width: 100%;
+  padding: 10px; 
+  font-family: Arial, sans-serif; 
+  color: #333;
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+option {
+  padding: 10px;
+  background-color: #fff; 
+  color: #333;
+}
+option:hover {
+  background-color: #f0f0f0; 
+}
+.patient {
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 10px;
+  padding-right: 5%;  
+}
+
+/* for small screens */
+@media(max-width : 767px) {
+  .form-appointment {
+    width: 90%;
+  }
+}
+@media (max-width : 350px) {
+  .image-footer {
+    display: none;
+  }
+}

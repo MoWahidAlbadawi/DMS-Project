@@ -1,0 +1,22 @@
+.menu-small {
+    text-align: center;
+    border-radius: 5px;
+    width : 96%;
+    padding: 15px;
+    color: #323232;
+    height: 150px;
+    transition: .3s;
+    z-index: 10;
+}
+.active-in-bigger-screens {
+    color: #323232;
+}
+.navlink-small-screen:hover {
+    color: teal;
+}
+.active-in-small-screens {
+    background-color: #b7dfc9;
+    padding: 5px 75px;
+    transition: .1s;
+    border-radius: 5px;
+}   
